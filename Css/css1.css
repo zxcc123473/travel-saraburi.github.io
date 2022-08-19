@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.a{
+    width: 160px;
+    height: 160px;
+}
+.b{
+    width: 150px;
+    height: 150px;
+}
+.c{
+    width: 100px;
+    height: 100px;
+}
+table{
+    text-align: center;
+}
+header{
+    width: 100vw;
+    height: 100px;
+    font-family: 'Poppins';
+    position: fixed;
+}
+header nav{
+    float: left;
+    height: 100%;
+}
+header nav li {
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+} 
+header nav li:last-of-type .LL{
+    margin-right: 0;
+}
+
+header nav span {
+    display: table-cell;
+    vertical-align: text-top;
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+header nav .button{
+    background-color: #000000; 
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.05);
+}
+header .inner{
+    width: 300px; 
+    height: 100%;
+    display: block;
+    margin: revert;
+}
+header .Outner {
+    border: 2px black dashed;
+    background-color: white;
+    width: 250px; height: 10;
+}
+header a{
+    color: black;
+}
